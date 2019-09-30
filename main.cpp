@@ -17,8 +17,5 @@ int main(){
     lucky++;
     }
 cout << "your lucky number is "  << lucky<< endl;
-    cout<< "you are destined to be famous!" <<endl;
-    cout << "you should keep a low profile." << endl;
-
 return 0;
 }
