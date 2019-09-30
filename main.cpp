@@ -9,9 +9,9 @@ int main(){
         string lastName;
         int lucky = 0;
         int lastLetter;
-    cout <<  "What is your first name? "<<endl;
+    cout <<  "What is your first name?"<<endl;
     cin>> firstName;
-    cout<< "What is your last name? "<<endl;
+    cout<< "What is your last name?"<<endl;
     cin>> lastName;
     cout<< "Welcome, " <<firstName.at(0) <<"."  <<lastName.at(0) <<"."<< ", here is your fortune... "<< endl;
  for(int i=0; firstName[i]; i++){
@@ -24,7 +24,7 @@ if (firstName[0] == 'a' || firstName [0] == 'A' ||firstName[0] == 'e' || firstNa
     cout<< "you are destined to be famous!" <<endl;
     }
 else{
-    cout << "you Should keep a low profile." << endl;
+    cout << "you should keep a low profile." << endl;
     } 
  for (int i =0; lastName[i]; ++i){ 
      lastLetter = i;
@@ -35,7 +35,7 @@ if (lastName[lastLetter]== 'a' || lastName[lastLetter] == 'A' || lastName[lastLe
      lastName[lastLetter] == 'u' ){
     cout<< "you have already met your true love." <<endl;
     }
-cout << "Have a good day!"<<endl; 
+cout << "have a good day!"<<endl; 
 
 return 0;
 }
