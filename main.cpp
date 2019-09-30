@@ -11,7 +11,7 @@ int main(){
         int lastLetter;
     cout <<  "What is your first name? "<<endl;
     cin>> firstName;
-    cout<< "What is your last name? ";
+    cout<< "What is your last name? "<<endl;
     cin>> lastName;
     cout<< "Welcome " <<firstName.at(0) <<"."  <<lastName.at(0) <<" ."<< " , here is your fortune... " ;
  for(int i=0; firstName[i]; i++){
