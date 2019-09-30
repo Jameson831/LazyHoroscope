@@ -13,7 +13,7 @@ int main(){
     cin>> firstName;
     cout<< "What is your last name?"<<endl;
     cin>> lastName;
-    cout<< "Welcome, " <<firstName.at(0) <<"."  <<lastName.at(0) <<"."<< ", here is your fortune... "<< endl;
+    cout<< "Welcome, " <<firstName.at(0) <<"."  <<lastName.at(0) <<"."<< ", here is your fortune..."<< endl;
  for(int i=0; firstName[i]; i++){
     lucky++;
     }
